@@ -1,0 +1,44 @@
+html {
+	background-color: #1C5480;
+	font-size: 20px;
+	text-align: center;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2 {
+	font: 3em Helveltica, Arial, sans-serif;
+}
+
+h1 {
+	color: #2A7FBF;
+	background-color: #0E2A40;
+	margin-top: 0;
+}
+
+.field {
+	display: grid;
+	grid-template-columns: repeat(3, 10em);
+	grid-template-rows: repeat(3, 10em);
+	width: 30em;
+	margin: 0 auto;
+}
+
+.field div {
+	font-size: 10em;
+	border: 5px solid;
+}
+
+.field div:hover[data-clicked="false"] {
+	color: #2CCEFF;
+	background: #2A7FBF;
+}
+
+.end {
+	margin: auto;
+	visibility: hidden;
+	text-size: 2em;
+}
